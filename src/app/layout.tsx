@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'NFTEarth',
-  description: 'The home of NFTs on Earth. Built with Next.js and Vercel.',
+  description: 'The hub for NFTs on Earth. ',
 }
 
 export default function RootLayout({

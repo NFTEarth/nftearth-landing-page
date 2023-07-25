@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-         Get started with the largest hub for NFTs on Earth.
+         Get Started with the Global NFT Hub on NFTEarth
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -14,12 +14,12 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Powered by{' '}
+            Powered by NFTΞarth{' '}
             <Image
               src="/vercel.svg"
               alt="NFTEarth Logo"
               className="dark"
-              width={100}
+              width={90}
               height={24}
               priority
             />
@@ -32,13 +32,30 @@ export default function Home() {
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark"
           src="/next.svg"
           alt="NFTEarth Logo"
-          width={180}
-          height={37}
+          width={350}
+          height={100}
           priority
         />
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
+        <a
+          href="https://app.camelot.exchange/?token2=0x59d5ca4d8f4428c5aac66f7d91d115f408b847ce"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Buy ONFTE on Camelot DEX{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          Get some ONFTE omnichain tokens to begin your journey.
+          </p>
+        </a>
+
         <a
           href="https://app.nftearth.exchange"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -46,30 +63,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            App{' '}
+            Explore the App{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Trade NFTs on the NFTEarth marketplace.
-          </p>
-        </a>
-
-        <a
-          href="https://app.nftearth.exchange/arbitrum/collection-rankings"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Collections{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore top collections in real-time.
+            Head to the live NFTEarth dApp to see top NFT collections in real-time.
           </p>
         </a>
 
@@ -97,13 +97,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+            Documentation{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about the NFTEarth protcol and the ONFTE token.
+            Find in-depth information about the NFTEarth protcol and the ONFTE token and airdrop 2.
           </p>
         </a>
       </div>
