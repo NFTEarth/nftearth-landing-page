@@ -99,14 +99,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Documentation{" "}
+            Questions?{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn more about NFTEarth and the vision for the protocol from our
-            in-depth docs and begin preparing for airdrop 2.
+            Contact us via email at team@layer2nfts.org or head to our docs to learn more and begin preparing for airdrop 2.
           </p>
         </a>
       </div>
