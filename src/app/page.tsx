@@ -1,4 +1,23 @@
 import Image from "next/image";
+import React from 'react';
+
+const data = [
+  { label: 'Arbitrum', address: '0x51B902f19a56F0c8E409a34a215AD2673EDF3284' },
+  { label: 'Optimism', address: '0x8637725aDa78db0674a679CeA2A5e0A0869EF4A1' },
+  { label: 'Polygon', address: '0x492Fa53b88614923937B7197C87E0F7F8EEb7B20' },
+  { label: 'Avalanche', address: '0xD47E4F1ef1AA4090bc27420BDD5cB379Ced81440' },
+  { label: 'BNB Chain', address: '0x1912A3504E59d1C1B060bf2d371DEB00b70E8796' },
+  { label: 'Linea', address: '0x2140Ea50bc3B6Ac3971F9e9Ea93A1442665670e4' },
+  { label: 'Base', address: '0xc2106ca72996e49bBADcB836eeC52B765977fd20' },
+];
+
+
+const AddressItem: React.FC<{ label: string; address: string }> = ({ label, address }) => (
+  <>
+    <strong>{label}:</strong> {address}
+    <br />
+  </>
+);
 
 export default function Home() {
   return (
@@ -75,21 +94,22 @@ export default function Home() {
         </a>
 
         <a
-          href="https://staking.nftearth.exchange"
+          href="https://docs.nftearth.exchange/developers/contract-addresses"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Staking{" "}
+          NFTE Omnichain Token Addresses{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Earn NFTE rewards and protocol revenue sharing for staking assets
-            and contributing to the long-term success of the protocol.
-          </p>
+        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+        {data.map((item) => (
+          <AddressItem key={item.label} label={item.label} address={item.address} />
+        ))}
+        </p>
         </a>
 
         <a
@@ -105,7 +125,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Contact us via email at team@layer2nfts.org or head to our docs to learn more and begin preparing for airdrop 2.
+            Contact us via email at team@layer2nfts.org or on Twitter at @NFTEarth_L2 or head to our official documentation to learn more about our vision for non-fungible technology and to begin preparing for airdrop 2.
           </p>
         </a>
       </div>
