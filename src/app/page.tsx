@@ -9,6 +9,7 @@ const data = [
   { label: 'BNB Chain', address: '0x1912A3504E59d1C1B060bf2d371DEB00b70E8796' },
   { label: 'Linea', address: '0x2140Ea50bc3B6Ac3971F9e9Ea93A1442665670e4' },
   { label: 'Base', address: '0xc2106ca72996e49bBADcB836eeC52B765977fd20' },
+  { label: 'Mantle', address: '0x3E173b825ADEeF9661920B91A8d50B075Ad51bA5' },
 ];
 
 
