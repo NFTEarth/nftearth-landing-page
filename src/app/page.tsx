@@ -10,6 +10,7 @@ const data = [
   { label: 'Linea', address: '0x2140Ea50bc3B6Ac3971F9e9Ea93A1442665670e4' },
   { label: 'Base', address: '0xc2106ca72996e49bBADcB836eeC52B765977fd20' },
   { label: 'Mantle', address: '0x3E173b825ADEeF9661920B91A8d50B075Ad51bA5' },
+  { label: 'Ethereum', address: '0x8c223a82e07fecb49d602150d7c2b3a4c9630310' },
 ];
 
 
