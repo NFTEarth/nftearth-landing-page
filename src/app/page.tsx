@@ -8,9 +8,9 @@ const data = [
   { label: 'Avalanche', address: '0xD47E4F1ef1AA4090bc27420BDD5cB379Ced81440' },
   { label: 'BNB Chain', address: '0x1912A3504E59d1C1B060bf2d371DEB00b70E8796' },
   { label: 'Linea', address: '0x2140Ea50bc3B6Ac3971F9e9Ea93A1442665670e4' },
-  { label: 'Base', address: '0xc2106ca72996e49bBADcB836eeC52B765977fd20' },
   { label: 'Mantle', address: '0x3E173b825ADEeF9661920B91A8d50B075Ad51bA5' },
   { label: 'Ethereum', address: '0x8c223a82e07fecb49d602150d7c2b3a4c9630310' },
+  { label: 'Base', address: '0xc2106ca72996e49bBADcB836eeC52B765977fd20' },
 ];
 
 
@@ -61,13 +61,13 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
-          href="https://app.uniswap.org/#/swap?outputCurrency=0x51b902f19a56f0c8e409a34a215ad2673edf3284&chain=arbitrum"
+          href="https://www.sushi.com/swap?fromChainId=42161&fromCurrency=NATIVE&toChainId=42161&toCurrency=0x51B902f19a56F0c8E409a34a215AD2673EDF3284"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Purchase NFTE on Uniswap{" "}
+            Purchase NFTE tokens on SushiSwap and start Staking!{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -84,7 +84,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Marketplace live on 6 chains{" "}
+            Marketplace live on 9 chains{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -102,7 +102,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-          NFTE Omnichain Token Addresses{" "}
+          NFTE Omnichain Token Address List:{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
