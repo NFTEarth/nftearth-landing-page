@@ -14,7 +14,7 @@ import React from 'react';
   ];*/
 
 
-/*onst AddressItem: React.FC<{ label: string; address: string }> = ({ label, address }) => (
+/*const AddressItem: React.FC<{ label: string; address: string }> = ({ label, address }) => (
   <>
     <strong>{label}:</strong> {address}
     <br />
@@ -109,13 +109,7 @@ export default function Home() {
             Contact us via email at team@layer2nfts.org, on Twitter at @NFTEarth_L2 or head to our docs to learn more about our vision for NFTs and scaling solutions and to begin preparing for airdrop season 2.
           </p>
         </a>
-        <a
-          href="https://docs.nftearth.exchange/developers/contract-addresses"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
+        
       </div>
     </main>
   );
