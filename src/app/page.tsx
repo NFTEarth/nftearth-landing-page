@@ -58,6 +58,7 @@ export default function Home() {
           priority
         />
       </div>
+      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-3 lg:text-left">
       <a
           href="https://app.nftearth.exchange"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -75,8 +76,6 @@ export default function Home() {
             across 9 chains in real-time.
           </p>
         </a>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
           href="https://www.sushi.com/swap?fromChainId=42161&fromCurrency=NATIVE&toChainId=42161&toCurrency=0x51B902f19a56F0c8E409a34a215AD2673EDF3284"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -109,7 +108,6 @@ export default function Home() {
             Contact us via email at team@layer2nfts.org, on Twitter at @NFTEarth_L2 or head to our docs to learn more about our vision for NFTs and scaling solutions and to begin preparing for airdrop season 2.
           </p>
         </a>
-        
       </div>
     </main>
   );
