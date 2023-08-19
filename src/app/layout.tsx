@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'NFTEarth',
-  description: 'The hub for NFTs on Earth. ',
+  description: 'NFTEarth is the Omnichain NFT Hub. ',
 }
 
 export default function RootLayout({
