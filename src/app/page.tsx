@@ -26,7 +26,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          The Global Omnichain NFT Hub
+          Omnichain NFT Hub
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -67,7 +67,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Purchase NFTE tokens on SushiSwap and start Staking!{" "}
+           Get NFTE tokens on SushiSwap and start Staking.{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -84,14 +84,14 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Marketplace live on 9 chains{" "}
+            Marketplace{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Head on over to the NFTEarth App and explore top NFT collections
-            across multiple blockchains in real-time.
+            Head to the NFTEarth dApp and explore top NFT collections
+            across 9 chains in real-time.
           </p>
         </a>
 
@@ -102,7 +102,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-          NFTE Omnichain Token Address List:{" "}
+          NFTE Token Addresses:{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -127,7 +127,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Contact us via email at team@layer2nfts.org or on Twitter at @NFTEarth_L2 or head to our official documentation to learn more about our vision for non-fungible technology and to begin preparing for airdrop 2.
+            Contact us via email at team@layer2nfts.org, on Twitter at @NFTEarth_L2 or head to our docs to learn more about our vision for NFTs and scaling solutions and to begin preparing for airdrop season 2.
           </p>
         </a>
       </div>
