@@ -105,7 +105,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Contact us via email at team@layer2nfts.org, on Twitter at @NFTEarth_L2 or head to our docs to learn more about our vision for NFTs and scaling solutions and to begin preparing for airdrop season 2.
+            Contact us via email at team@layer2nfts.org, at @NFTEarth_L2 on X or head to our docs to learn more about our vision for NFTs.
           </p>
         </a>
       </div>
