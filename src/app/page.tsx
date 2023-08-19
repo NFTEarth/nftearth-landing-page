@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from 'react';
 
-const data = [
+/*const data = [
   { label: 'Arbitrum', address: '0x51B902f19a56F0c8E409a34a215AD2673EDF3284' },
   { label: 'Optimism', address: '0x8637725aDa78db0674a679CeA2A5e0A0869EF4A1' },
   { label: 'Polygon', address: '0x492Fa53b88614923937B7197C87E0F7F8EEb7B20' },
@@ -11,15 +11,15 @@ const data = [
   { label: 'Mantle', address: '0x3E173b825ADEeF9661920B91A8d50B075Ad51bA5' },
   { label: 'Ethereum', address: '0x8c223a82e07fecb49d602150d7c2b3a4c9630310' },
   { label: 'Base', address: '0xc2106ca72996e49bBADcB836eeC52B765977fd20' },
-];
+  ];*/
 
 
-const AddressItem: React.FC<{ label: string; address: string }> = ({ label, address }) => (
+/*onst AddressItem: React.FC<{ label: string; address: string }> = ({ label, address }) => (
   <>
     <strong>{label}:</strong> {address}
     <br />
   </>
-);
+);*/
 
 export default function Home() {
   return (
@@ -84,13 +84,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-           Buy $NFTE Tokens.{" "}
+           Purchase NFTE Tokens{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Get some omnichain NFTE tokens to begin your journey.
+            Get some Omnichain NFTE tokens to begin your journey.
           </p>
         </a>
           <a
@@ -115,19 +115,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-          NFTE Token Addresses:{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-        <p className="m-0 max-w-[30ch] text-sm opacity-50">
-        {data.map((item) => (
-          <AddressItem key={item.label} label={item.label} address={item.address} />
-        ))}
-        </p>
         </a>
-
       </div>
     </main>
   );
