@@ -66,14 +66,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Marketplace{" "}
+            App{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Head to the NFTEarth dApp and explore top NFT collections
-            across 9 chains in real-time.
+            Head straight to the NFTEarth Application to explore top NFT collections, bridge NFTE cross-chain, and play onchain games.
           </p>
         </a>
         <a
@@ -83,13 +82,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-           Purchase NFTE Tokens{" "}
+           Swap NFTE{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Get some Omnichain NFTE tokens to begin your journey.
+            Get some Omnichain NFTE tokens to begin your journey in the NFTEarth ecosystem.
           </p>
         </a>
           <a
@@ -105,7 +104,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Contact us via email at team@layer2nfts.org, at @NFTEarth_L2 on X or head to our docs to learn more about our vision for NFTs.
+            Learn more about our vision for NFTs or get in touch with us on X at @NFTEarth_L2 or via email at team@layer2nfts.org.
           </p>
         </a>
       </div>
